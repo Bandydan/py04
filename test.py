@@ -1,4 +1,9 @@
 import sys
+import sys
+import sys
+import sys
+import sys
+import sys
 
 numbers = []
 with open(sys.argv[1], "r") as f:
