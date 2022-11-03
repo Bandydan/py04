@@ -1,9 +1,4 @@
 import sys
-with open(sys.argv[1], "r") as f:
-    items = f.read().split("\n")
-    for i in items[:-1]:
-        numbers.append([int(n) for n in i.split(",")])
-for nums in numbers:
 
 numbers = []
 with open(sys.argv[1], "r") as f:
